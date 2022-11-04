@@ -16,6 +16,9 @@ h1{
   font-size:25px;
 
 }
+h2{
+  color: white;
+}
 h4{
 
  position:absolute;
@@ -45,3 +48,33 @@ background-color: rgb(112, 216, 143);
 box-shadow: 0 5px #666;
 }
 
+
+p{
+  color: white;
+}
+.arrow {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
