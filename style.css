@@ -1,0 +1,47 @@
+body{
+  background: url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+h1{
+  color:rgb(235, 227, 227);
+  font-family: monospace;
+  font-size:25px;
+
+}
+h4{
+
+ position:absolute;
+ bottom: 0;
+ right: 120px;
+
+  font-size:20px;
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+   
+  
+}
+#game{
+  
+  box-shadow: black 20px 10px 50px;
+}
+#playagain{
+   margin: 20px;
+   padding: 20px;
+   color: rgb(16, 17, 17);
+   font-family: monospace;
+   cursor: pointer;
+}
+.replay:hover
+{
+background-color: palevioletred;
+box-shadow: 0 5px #666;
+}
+
