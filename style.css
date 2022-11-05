@@ -1,6 +1,11 @@
+html{
+
+overflow: hidden;
+}
 body{
   background: url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   margin: 0px;
+  box-sizing: border-box;
   padding: 0px;
   height: 100vh;
   background-size: cover;
@@ -10,25 +15,42 @@ body{
   flex-direction: column;
 
 }
-h1{
-  color:rgb(235, 227, 227);
+
+div.inst{
+  height: 380px;
+  width: 380px;
+  padding: 5px;
+  margin: 10px;
+  border-style: dotted;
+  border-color: rgb(255, 255, 255);
+  color:rgb(255, 255, 255);
   font-family: monospace;
-  font-size:25px;
+  font-size: 20px;
+  text-align: center;
+}
+div.logo {
 
+  margin-top: 50px;
+  height: 200px;
+  width: 200px;
 }
-h2{
-  color: white;
+
+
+div.logo img{
+  
+ max-width: 100%;
+ min-width: 100%;
+ object-fit: cover;
+  
+  
 }
+
 h4{
-
- position:absolute;
- bottom: 0;
- right: 120px;
-
+  position: absolute;
+  bottom: 0px;
   font-size:20px;
   color: rgb(255, 255, 255);
   font-family: monospace;
-   
   
 }
 #game{
@@ -78,3 +100,4 @@ p{
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+
