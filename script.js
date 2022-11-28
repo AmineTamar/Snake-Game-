@@ -192,10 +192,13 @@ function keyDown(event){
     yVelocity=0;
     xVelocity=1;
   }
+  
+  
 }
 
-function refreshpage(){
-  window.location.reload();
+function refreshpage(e){
+  window.location.reload(); 
+
 }
 
 drawGame();
